@@ -1,0 +1,250 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+    margin-bottom: 5.5%;
+    width: 100%;
+    
+}
+
+.cabecalho-titulo{
+    font-weight: bold;
+    font-size: 1.7em;
+    color: #FFFF;
+    margin-left: 10px;
+}
+
+.cabecalho-titulo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cabecalho-nav-link{
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFFF;
+    /* background-color: #FFFF; */
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+    /* border: 1px solid #9799A6; */
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.cabecalho-nav-link:hover, button:hover{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cabecalho-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ass {
+    background-color: #B9B4B4;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    bottom: 0px;
+    position: fixed;
+    font-weight: 550;
+    display: block;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #B9B4B4;
+}
+
+main{
+    margin-top: 0.5%;
+    border-radius: 10px;
+}
+
+.centraliza{
+    margin: auto;
+    border-radius: 10px;
+}
+
+.centraliza{
+    width: 40%;
+    background-color: #B9B4B4;
+    padding: 3em;
+    box-shadow: 0 0 2.2em rgba(0,0,0, .2);
+}
+
+#titulo {
+    font-family: sans-serif;
+    text-align: center;
+} 
+
+#subtitulo {
+    font-family: sans-serif;
+    text-align: center;
+} 
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.caixa {
+    margin-bottom: 1.2em;
+
+}
+
+.caixa label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset.grupo .caixa {
+    float:  left;
+    margin-right: 1em;
+    
+}
+
+.caixa input[type="text"], .caixa input[type="email"],.caixa input[type="tel"], .caixa select, .caixa textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.caixa select option {
+    padding-right: 1em;
+}
+
+.caixa input:focus, .caixa select:focus, .caixa textarea:focus {
+    background: #CFC6D1;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.botao {
+    font-size: 24px;
+    background: #59429d;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 1.3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    /* top: 85%; */
+    /* left: 15%; */
+    margin-top: 1%;
+    margin-left: 4.5%;
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover {
+    background: #780897;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+input:invalid{
+    outline-color: red;
+}
+
+input:valid{
+    outline-color: green;
+}
+
+textarea:valid{
+    outline-color: green
+}
+
+textarea:invalid{
+    outline-color: red;
+}
+
+
+@media screen and (max-width: 768px) {
+    .centraliza{
+        width: auto;
+        font-size: 100%;
+        margin-left: 05px;
+        margin-right: 0px;
+        overflow-x: hidden;
+     }
+
+     #titulo, #subtitulo{
+         text-align: center;
+         margin-left: 0px;
+     }
+
+     .botao{
+         position: static;
+         text-align: center;
+         margin-left: 45%;
+         margin-top: 10%;
+     }
+
+     .caixa textarea{
+         width: 10px;
+     }
+
+     .cabecalho-container{
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        border-radius: 0;
+    }
+
+    .cabecalho-nav{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    *{
+        box-sizing: unset;
+    }
+
+    .ass{
+        font-size: 18px;
+    }
+    body{
+        margin: 0px;
+        overflow-x: hidden;
+    }
+    *{
+        overflow-x: hidden;
+    }
+}

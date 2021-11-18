@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <header class = "cabecalho">
+      
+        
+        <div class="container cabecalho-container">
+            <h1 class="cabecalho-titulo">
+                <a href="#">Contato</a>
+            </h1>
+
+            
+
+            <nav class="cabecalho-nav">
+                <a class="cabecalho-nav-link" href="pag1.html">Início</a>
+                <a class="cabecalho-nav-link" href="contato.html"target="_blank">Contato</a>
+                <a class="cabecalho-nav-link" href="https://www.instagram.com/sejaqueervocequiser/"target="_blank">Instagram</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="centraliza">
+<main>
+    <div>
+        <h1 id="titulo">Formulário de Contato</h1>
+        <p id="subtitulo"><strong>Preencha suas Informações</strong></p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="caixa">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome"  maxlength="15" required oninvalid="this.setCustomValidity('Preencha seu nome')">
+            </div>
+            <div class="caixa">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Seu sobrenome" minlength="2" maxlength="15" required oninvalid="this.setCustomValidity('Preencha seu sobrenome')">
+            </div>
+        </fieldset> 
+
+        <div class="caixa">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" placeholder="Seu email" required>
+        </div>
+
+        <div class="caixa">
+            <br>
+            <label for="mensagem"><strong>Deixe a sua mensagem: </strong></label>
+            <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem" placeholder="Digite aqui" minlength="3" required oninvalid="this.setCustomValidity('Digite sua mensagem')"></textarea>
+        </div>
+
+        <button class="botao" type="submit" onsubmit="">Enviar</button>
+    </form>
+</main>
+</div>
+
+<footer class="ass">
+    &copy; Eduardo Seidenfuhss, Renan Sanchez e Ester de Lima
+</footer>
+
+</body>
+
+</html>

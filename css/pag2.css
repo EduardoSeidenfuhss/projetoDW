@@ -4,35 +4,28 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Raleway', sans-serif;
     background-color: #B9B4B4;
 }
-
 .centraliza-container{
     margin: auto;
 }
-
 div{
     width: 85%;
     background-color: #B9B4B4;
     padding: 3em;
     box-shadow: 0 0 2.2em rgba(0,0,0, .2);
 }
-
 header{
     text-align: center;
 }
-
 header img{
     width: 20%;
 }
-
 header ul{
     margin-top: 1.5em;
 }
-
 header li{
     list-style-type: none;
     display: inline-block;
@@ -40,43 +33,36 @@ header li{
     font-size: 2rem;
     margin-right: 2em;
 }
-
 header li:last-child{
     margin-right: 0%;
 }
-
 header a{
     text-decoration: none;
     padding: .8em;
 }
-
 main{
     margin-top: 4em;
 }
-
 article{
     width: 95%;
 }
-
 article img{
     width: 40%;
     float: right;
     margin: 0 0 2.5em 2em;
 }
-
 p{
     font-family: sans-serif;
     font-size: 1.5rem;
     line-height: 160%;
     margin-bottom: 1em;
 }
-
 h2{
     font-size: 4.5rem;
     margin-bottom: .72em;
-    font-family: 'Racing Sans one';  
+    font-family: 'Racing Sans one';
+    
 }
-
 hr{
     width: 85%;
     margin: 4em auto;
@@ -84,56 +70,45 @@ hr{
     box-shadow: 0px 1px 6px rgba(0,0,0,.16);
     background-color: #B9B4B4;
 }
-
 .flag-esquerda{
     float: left;
     margin-right: 2.5em;
     margin-left: 0%;
 }
-
 .texto-direita{
     text-align: right;
 }
-
 .lesbicas{
     color: #D52C00;
 }
-
 .gays{
     color: #EF7627;
     text-align: right;
 }
-
 .bi{
     color: #FFD800;
     text-align: left;
 }
-
 .trans{
     color: #498022;
     text-align: right;
 }
-
 .queer{
     color: #4E51A2;
     text-align: left;
 }
-
 .inter{
     color: #81007F;
     text-align: right;
 }
-
 .assexuais{
     color: #FFD800;
     text-align: left;
 }
-
 .pan{
     color: #FFD800;
     text-align: right;
 }
-
 .ass{
     background-color: #B9B4B4;
     width: 100%;
@@ -186,37 +161,30 @@ main img {
     color: #D52C00;
     text-align: center;    
 }
-
 .gays{
     color: #EF7627;
     text-align: center;
 }
-
 .bi{
     color: #FFD800;
     text-align: center;
 }
-
 .trans{
     color: #498022;
     text-align: center;
 }
-
 .queer{
     color: #4E51A2;
     text-align: center;
 }
-
 .inter{
     color: #81007F;
     text-align: center;
 }
-
 .assexuais{
     color: #FFD800;
     text-align: center;
 }
-
 .pan{
     color: #FFD800;
     text-align: center;
@@ -224,6 +192,10 @@ main img {
 
 header img{
     width: 60%;
+}
+
+.centraliza{
+    width: auto;
 }
   
 }

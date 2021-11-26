@@ -107,11 +107,11 @@ main{
 
 
 img{
-    width: 30%;
+    width: 35%;
     float: right;
     border-radius: 10px;
     margin-top: 10px;
-    margin-right: 5%;
+    margin-left: 40px;
 }
 
 article p{

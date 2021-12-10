@@ -57,6 +57,11 @@
     justify-content: space-between;
 }
 
+.referencia{
+    text-decoration: none;
+    color: black;
+}
+
 .ass {
     background-color: #B9B4B4;
     width: 100%;
@@ -146,7 +151,7 @@ article p{
 
     img {
         width: 100%;
-        margin-bottom: 10%;
+        margin-bottom: 30%;
         align-items: center;
         text-align: center;
         margin-top: -30px;
